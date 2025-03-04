@@ -1,1 +1,17 @@
 /* write your override styles here */
+/* Hide all graffiti tags. */
+
+#wall .tag-1,
+#wall .tag-2,
+#wall .tag-3,
+#wall .tag-4,
+#wall .tag-5,
+#wall .tag-6,
+#wall .tag-7 {display: none;}  
+/* 
+ Restore original wall background. */ 
+#wall {background: url("../images/tag-1.png")no-repeat center center; 
+/*     
+    Makes sure the image covers the entire wall. */
+
+background-size: cover;}
